@@ -95,14 +95,6 @@ ip.addr == <victim_ip>
 
 ***
 
-## 📦 Files Included
-
-- Example Wireshark .pcap, screenshots (redacted).
-- Shell scripts, command history.
-- Detailed walkthrough doc.
-
-***
-
 ## 📝 Credits / Usage
 
 All code, techniques, and documentation here are for educational and authorized pentesting only.
